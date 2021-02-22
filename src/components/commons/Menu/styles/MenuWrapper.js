@@ -1,8 +1,13 @@
 import styled, { css } from "styled-components";
+import get from "lodash/get";
 import { breakpointsMedia } from "../../../../theme/utils/breakpointsMedia";
 import { TextStyleVariantsMap } from "../../../foundation/Text";
 
-export const MenuWrapper = styled.nav`
+export const MenuWrapper = styled.div`
+  background-color: ${({ theme }) => get(theme, `colors.secondary.main.color`)};
+`;
+
+MenuWrapper.Main = styled.nav`
   font-family: "Rubik", sans-serif;
   display: flex;
   align-items: center;
@@ -15,6 +20,7 @@ export const MenuWrapper = styled.nav`
     md: css`
       justify-content: flex-start;
       margin-top: 32px;
+      margin-bottom: 32px;
       margin-left: auto;
       margin-right: auto;
       width: 100%;

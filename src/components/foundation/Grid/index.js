@@ -37,6 +37,7 @@ export const Grid = {
     margin-left: -16px;
   `,
   Col: styled.div`
+    ${propToStyle("height")}
     padding-right: 16px;
     padding-left: 16px;
     flex-basis: 0;
