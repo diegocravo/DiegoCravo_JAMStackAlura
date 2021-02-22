@@ -6,6 +6,7 @@ import { Button } from "../src/components/commons/Button";
 import { Grid } from "../src/components/foundation/Grid";
 import { Box } from "../src/components/foundation/layout/Box";
 import { Text } from "../src/components/foundation/Text/index";
+import Destaques from "../src/components/commons/Destaques";
 import WrapperProjetos from "../src/components/commons/WrapperProjetos";
 
 export default function Home() {
@@ -23,6 +24,7 @@ export default function Home() {
       <Capa />
       <Menu />
       <WrapperProjetos />
+      <Destaques />
 
       <Grid.Container
         marginTop={{

@@ -4,47 +4,29 @@ import Particles from "react-particles-js";
 import get from "lodash/get";
 import { Grid } from "../../foundation/Grid";
 import { Text } from "../../foundation/Text";
-import { ReactLogo } from "@styled-icons/simple-icons/ReactLogo";
-import { StyledComponents } from "@styled-icons/simple-icons/StyledComponents";
-import { NextDotJs } from "@styled-icons/simple-icons/NextDotJs";
-import { Tailwindcss } from "@styled-icons/simple-icons/Tailwindcss";
-import { Javascript } from "@styled-icons/simple-icons/Javascript";
-
-const JavascriptIcon = styled(Javascript)`
-  margin: 0px 10px;
-  color: ${({ theme }) => get(theme, `colors.secondary.main.color`)};
-  height: 39px;
-`;
-
-const ReactIcon = styled(ReactLogo)`
-  margin: 0px 10px;
-  color: ${({ theme }) => get(theme, `colors.secondary.main.color`)};
-  height: 39px;
-`;
-
-const StyledIcon = styled(StyledComponents)`
-  margin: 0px 10px;
-  color: ${({ theme }) => get(theme, `colors.secondary.main.color`)};
-  height: 39px;
-`;
-
-const TailwindIcon = styled(Tailwindcss)`
-  margin: 0px 10px;
-  color: ${({ theme }) => get(theme, `colors.secondary.main.color`)};
-  height: 39px;
-`;
-
-const NextIcon = styled(NextDotJs)`
-  margin: 0px 10px;
-  color: ${({ theme }) => get(theme, `colors.secondary.main.color`)};
-  height: 39px;
-`;
+import {
+  JavascriptIcon,
+  ReactIcon,
+  NextIcon,
+  StyledIcon,
+  TailwindIcon,
+} from "../Icons";
 
 const Capa = () => {
   return (
     <div style={{ height: "100vh" }}>
       <Particles
         style={{ height: "100vh", width: "100vh", position: "absolute" }}
+        params={{
+          particles: {
+            color: {
+              value: "#fff",
+            },
+            line_linked: {
+              color: "#fff",
+            },
+          },
+        }}
       />
       <Grid.Container>
         <Grid.Col
@@ -56,34 +38,43 @@ const Capa = () => {
           justifyContent="center"
           flexDirection="column"
         >
-          <Text
-            variant="title"
-            tag="h1"
-            // textAlign="right"
-            textAlign={{
-              xs: "left",
-              md: "left",
+          <div
+            style={{
+              padding: "24px",
+              backgroundColor: "#263224",
+              opacity: "0.8",
+              borderRadius: "5px",
             }}
           >
-            Diego Cravo Teixeira
-          </Text>
-          <Text
-            variant="title"
-            tag="h2"
-            // textAlign="right"
-            textAlign={{
-              xs: "left",
-              md: "left",
-            }}
-          >
-            Front-end Developer
-          </Text>
-          <div>
-            <JavascriptIcon />
-            <ReactIcon />
-            <NextIcon />
-            <StyledIcon />
-            <TailwindIcon />
+            <Text
+              variant="mainTitle"
+              tag="h1"
+              // textAlign="right"
+              textAlign={{
+                xs: "center",
+                md: "center",
+              }}
+            >
+              Diego Cravo Teixeira
+            </Text>
+            <Text
+              variant="title"
+              tag="h2"
+              // textAlign="right"
+              textAlign={{
+                xs: "center",
+                md: "center",
+              }}
+            >
+              Front-end Developer
+            </Text>
+            <div style={{ display: "flex", justifyContent: "space-between" }}>
+              <JavascriptIcon />
+              <ReactIcon />
+              <NextIcon />
+              <StyledIcon />
+              <TailwindIcon />
+            </div>
           </div>
         </Grid.Col>
       </Grid.Container>

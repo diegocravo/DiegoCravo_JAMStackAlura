@@ -1,7 +1,10 @@
 import React from "react";
+import get from "lodash/get";
 import styled from "styled-components";
+import { LinkedinIcon, GithubIcon } from "../Icons";
 
 const FooterWrapper = styled.footer`
+  background-color: ${({ theme }) => get(theme, `colors.secondary.main.color`)};
   padding: 14px;
   display: flex;
   align-items: center;
@@ -28,18 +31,12 @@ export default function Footer(props) {
   return (
     // eslint-disable-next-line react/jsx-props-no-spreading
     <FooterWrapper {...props}>
-      <a href="https://www.alura.com.br/">
-        <img
-          src="https://www.alura.com.br/assets/img/alura-logo.svg"
-          alt="Logo Alura"
-        />
+      <a href="https://linkedin.com/in/diegocravo">
+        <LinkedinIcon />
       </a>
-      <p>
-        Orgulhosamente criado durante o{" "}
-        <a href="https://www.alura.com.br/">
-          <span>Bootcamp Alura JAM Stack</span>
-        </a>
-      </p>
+      <a href="https://github.com/diegocravo">
+        <GithubIcon />
+      </a>
     </FooterWrapper>
   );
 }

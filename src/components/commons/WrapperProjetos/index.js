@@ -70,7 +70,6 @@ const WrapperProjetos = () => {
           </div>
         </Grid.Col>
       </Grid.Row>
-      <Destaques />
     </Grid.Container>
   );
 };

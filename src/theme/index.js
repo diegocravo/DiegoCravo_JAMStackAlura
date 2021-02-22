@@ -36,6 +36,16 @@ const colors = {
       contrastText: "#fff",
     },
   },
+  quartiary: {
+    main: {
+      color: "#ffffff",
+      contrastText: "#fff",
+    },
+    light: {
+      color: "#88989E",
+      contrastText: "#fff",
+    },
+  },
   modes: {
     dark: {},
   },

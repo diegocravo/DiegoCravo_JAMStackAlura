@@ -8,6 +8,12 @@ export const TextStyleVariantsMap = {
   title: css`
     color: ${({ theme }) => get(theme, `colors.secondary.main.color`)};
   `,
+  mainTitle: css`
+    color: ${({ theme }) => get(theme, `colors.quartiary.main.color`)};
+  `,
+  title2: css`
+    color: ${({ theme }) => get(theme, `colors.primary.main.color`)};
+  `,
   paragraph1: css`
     color: ${({ theme }) => get(theme, `colors.primary.main.color`)};
     font-size: ${({ theme }) => theme.typographyVariants.paragraph1.fontSize};
