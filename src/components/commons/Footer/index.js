@@ -4,7 +4,7 @@ import styled from "styled-components";
 import { LinkedinIcon, GithubIcon } from "../Icons";
 
 const FooterWrapper = styled.footer`
-  background-color: ${({ theme }) => get(theme, `colors.secondary.main.color`)};
+  background-color: ${({ theme }) => get(theme, `colors.prymary.main.color`)};
   padding: 14px;
   display: flex;
   align-items: center;

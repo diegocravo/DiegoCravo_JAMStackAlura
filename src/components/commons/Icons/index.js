@@ -40,12 +40,12 @@ export const NextIcon = styled(NextDotJs)`
 
 export const LinkedinIcon = styled(Linkedin)`
   margin: 0px 10px;
-  color: ${({ theme }) => get(theme, `colors.primary.main.color`)};
+  color: ${({ theme }) => get(theme, `colors.secondary.main.color`)};
   height: 39px;
 `;
 
 export const GithubIcon = styled(Github)`
   margin: 0px 10px;
-  color: ${({ theme }) => get(theme, `colors.primary.main.color`)};
+  color: ${({ theme }) => get(theme, `colors.secondary.main.color`)};
   height: 39px;
 `;

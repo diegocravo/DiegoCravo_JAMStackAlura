@@ -18,7 +18,7 @@ const DestaquesWrapper = styled.div`
     md: css`
       justify-content: flex-start;
       margin-top: 32px;
-      margin-bottom: 32px;
+      margin-bottom: 0px;
       margin-left: auto;
       margin-right: auto;
       width: 100%;
