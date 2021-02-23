@@ -41,13 +41,13 @@ const Capa = () => {
           <div
             style={{
               padding: "24px",
-              backgroundColor: "#263224",
-              opacity: "0.8",
+              backgroundColor: "#f0f1e8",
+              opacity: "0.95",
               borderRadius: "5px",
             }}
           >
             <Text
-              variant="mainTitle"
+              variant="title2"
               tag="h1"
               // textAlign="right"
               textAlign={{
@@ -58,7 +58,7 @@ const Capa = () => {
               Diego Cravo Teixeira
             </Text>
             <Text
-              variant="title"
+              variant="title2"
               tag="h2"
               // textAlign="right"
               textAlign={{

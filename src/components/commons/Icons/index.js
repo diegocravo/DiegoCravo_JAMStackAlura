@@ -10,31 +10,31 @@ import { Github } from "@styled-icons/bootstrap/Github";
 
 export const JavascriptIcon = styled(Javascript)`
   margin: 0px 10px;
-  color: ${({ theme }) => get(theme, `colors.secondary.main.color`)};
+  color: ${({ theme }) => get(theme, `colors.primary.main.color`)};
   height: 39px;
 `;
 
 export const ReactIcon = styled(ReactLogo)`
   margin: 0px 10px;
-  color: ${({ theme }) => get(theme, `colors.secondary.main.color`)};
+  color: ${({ theme }) => get(theme, `colors.primary.main.color`)};
   height: 39px;
 `;
 
 export const StyledIcon = styled(StyledComponents)`
   margin: 0px 10px;
-  color: ${({ theme }) => get(theme, `colors.secondary.main.color`)};
+  color: ${({ theme }) => get(theme, `colors.primary.main.color`)};
   height: 39px;
 `;
 
 export const TailwindIcon = styled(Tailwindcss)`
   margin: 0px 10px;
-  color: ${({ theme }) => get(theme, `colors.secondary.main.color`)};
+  color: ${({ theme }) => get(theme, `colors.primary.main.color`)};
   height: 39px;
 `;
 
 export const NextIcon = styled(NextDotJs)`
   margin: 0px 10px;
-  color: ${({ theme }) => get(theme, `colors.secondary.main.color`)};
+  color: ${({ theme }) => get(theme, `colors.primary.main.color`)};
   height: 39px;
 `;
 

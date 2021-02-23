@@ -4,6 +4,7 @@ import get from "lodash/get";
 import { Text } from "../../foundation/Text";
 import { Grid } from "../../foundation/Grid";
 import Destaques from "../Destaques";
+import { Card } from "../Cards";
 
 const WrapperProjetos = () => {
   return (
@@ -30,12 +31,14 @@ const WrapperProjetos = () => {
           justifyContent="center"
           flexDirection="column"
         >
-          <img src="https://via.placeholder.com/300x350" />
-          <div style={{ backgroundColor: "#F0F1E8", width: "300px" }}>
-            <Text as="h2" variant="paragraph1" textAlign={"center"}>
-              Projeto
-            </Text>
-          </div>
+          <Card.Container>
+            <Card.Img src="https://via.placeholder.com/300x350" />
+            <Card.CardText>
+              <Text as="h2" variant="paragraph1" textAlign={"center"}>
+                PROJETO
+              </Text>
+            </Card.CardText>
+          </Card.Container>
         </Grid.Col>
 
         <Grid.Col
@@ -46,12 +49,14 @@ const WrapperProjetos = () => {
           justifyContent="center"
           flexDirection="column"
         >
-          <img src="https://via.placeholder.com/300x350" />
-          <div style={{ backgroundColor: "#F0F1E8", width: "300px" }}>
-            <Text as="h2" variant="paragraph1" textAlign={"center"}>
-              Projeto
-            </Text>
-          </div>
+          <Card.Container>
+            <Card.Img src="https://via.placeholder.com/300x350" />
+            <Card.CardText>
+              <Text as="h2" variant="paragraph1" textAlign={"center"}>
+                PROJETO
+              </Text>
+            </Card.CardText>
+          </Card.Container>
         </Grid.Col>
 
         <Grid.Col
@@ -62,12 +67,14 @@ const WrapperProjetos = () => {
           justifyContent="center"
           flexDirection="column"
         >
-          <img src="https://via.placeholder.com/300x350" />
-          <div style={{ backgroundColor: "#F0F1E8", width: "300px" }}>
-            <Text as="h2" variant="paragraph1" textAlign={"center"}>
-              Projeto
-            </Text>
-          </div>
+          <Card.Container>
+            <Card.Img src="https://via.placeholder.com/300x350" />
+            <Card.CardText>
+              <Text as="h1" variant="paragraph1" textAlign={"center"}>
+                PROJETO
+              </Text>
+            </Card.CardText>
+          </Card.Container>
         </Grid.Col>
       </Grid.Row>
     </Grid.Container>
