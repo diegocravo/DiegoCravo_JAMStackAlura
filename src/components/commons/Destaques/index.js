@@ -71,10 +71,19 @@ const Destaques = () => {
               }}
             >
               <img src="https://via.placeholder.com/600x300" />
-              <Text as="h2" variant="paragraph1">
-                Destaques
-              </Text>
             </div>
+          </Grid.Col>
+          <Grid.Col
+            value={{ xs: 12, md: 4 }}
+            offset={{ xs: 0, md: 0 }}
+            display="flex"
+            alignItems="center"
+            justifyContent="center"
+            flexDirection="initial"
+          >
+            <Text as="h1" variant="paragraph1">
+              Destaques
+            </Text>
           </Grid.Col>
         </Grid.Row>
       </Grid.Container>
