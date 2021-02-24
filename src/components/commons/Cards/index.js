@@ -6,7 +6,8 @@ import { propToStyle } from "../../../theme/utils/propToStyle";
 
 const Container = styled.div`
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  transition: 0.3s;
+  box-sizing: border-box;
+  transition: 0.1s;
   width: 100%;
   margin-bottom: 10px;
   margin-left: 5px;
@@ -14,7 +15,8 @@ const Container = styled.div`
   background-color: #fff;
   &:hover,
   &:focus {
-    box-shadow: 0 8px 16px 0 rgba(240, 231, 232, 0.3);
+    border-style: solid;
+    border-color: ${({ theme }) => theme.colors.tertiary.main.color};
   }
 `;
 
