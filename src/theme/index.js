@@ -28,7 +28,7 @@ const colors = {
   },
   tertiary: {
     main: {
-      color: "#070C0E",
+      color: "#21c25e",
       contrastText: "#fff",
     },
     light: {
