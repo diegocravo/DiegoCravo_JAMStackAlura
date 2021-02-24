@@ -19,7 +19,7 @@ export default function Home() {
       flexWrap="wrap"
       flexDirection="column"
       justifyContent="space-between"
-      backgroundImage="linear-gradient(to right, #273225, #354033)"
+      backgroundImage="linear-gradient(to right, #111329, #222548)"
       backgroundRepeat="no-repeat"
       backgroundPosition="bottom right"
     >

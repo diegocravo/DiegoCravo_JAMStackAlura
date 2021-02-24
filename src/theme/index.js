@@ -16,8 +16,8 @@ const colors = {
   },
   primary: {
     main: {
-      color: "#273225",
-      contrastText: "##354033",
+      color: "#111329",
+      contrastText: "#222548",
     },
   },
   secondary: {

@@ -41,7 +41,7 @@ const Capa = () => {
           <div
             style={{
               padding: "24px",
-              backgroundColor: "#05192d",
+              backgroundColor: "#1e2125",
               opacity: "0.95",
               borderRadius: "5px",
             }}
@@ -54,7 +54,7 @@ const Capa = () => {
                 xs: "center",
                 md: "center",
               }}
-              color={"#21c25e"}
+              color={"#F0F1E8"}
             >
               Diego Cravo Teixeira
             </Text>
@@ -66,7 +66,7 @@ const Capa = () => {
                 xs: "center",
                 md: "center",
               }}
-              color={"#21c25e"}
+              color={"#F0F1E8"}
             >
               Front-end Developer
             </Text>
