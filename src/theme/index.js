@@ -62,6 +62,6 @@ export default {
     xl: 1200, // extra large
   },
   borderRadius: "8px",
-  fontFamily: "'Rubik', sans-serif",
+  fontFamily: "'IBM Plex Mono', monospace",
   transition: "200ms ease-in-out",
 };
