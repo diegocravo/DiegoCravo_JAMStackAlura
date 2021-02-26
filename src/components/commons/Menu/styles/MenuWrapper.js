@@ -8,7 +8,8 @@ export const MenuWrapper = styled.div`
 `;
 
 MenuWrapper.Main = styled.nav`
-  font-family: "Rubik", sans-serif;
+  font-family: ${({ theme }) => get(theme, `fontFamily`)};
+  font-weight: 700;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -86,6 +87,7 @@ MenuWrapper.CentralSide = styled.div`
     text-decoration: none;
     color: #88989e;
     transition: 200ms ease-in-out;
+    font-weight: bold;
     ${breakpointsMedia({
       xs: css`
         ${TextStyleVariantsMap.smallestException}
@@ -96,7 +98,7 @@ MenuWrapper.CentralSide = styled.div`
     })}
     &:hover,
     &:focus {
-      font-weight: 500;
+      font-weight: bold;
       color: #070c0e;
     }
   }
