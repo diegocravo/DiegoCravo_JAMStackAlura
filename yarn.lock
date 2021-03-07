@@ -231,10 +231,10 @@
     "@babel/runtime" "^7.12.5"
     "@styled-icons/styled-icon" "^10.6.0"
 
-"@styled-icons/simple-icons@^10.28.0":
-  version "10.28.0"
-  resolved "https://registry.yarnpkg.com/@styled-icons/simple-icons/-/simple-icons-10.28.0.tgz#0be224b9ae9b834c3000bfc9248a254bc983d79d"
-  integrity sha512-JzGwayEOf9sjKDoUDnZYhGeLJDT/gvIZShRktoDMxfeQC3+QfDbozOk4dS9oPp7crHgn7Q8nhkQQ29ucAZXRKg==
+"@styled-icons/simple-icons@^10.29.0":
+  version "10.29.0"
+  resolved "https://registry.yarnpkg.com/@styled-icons/simple-icons/-/simple-icons-10.29.0.tgz#eb0dbb52c070f9a65668b525889a7cd43b7ca17c"
+  integrity sha512-TkNb6HII1xjmjlapY2msn8G+neLs6XYA3IclSR19Te5BLM8Su+Ct2unArSXoQym9W+SeiMnfjPI0dkAj9zY/Rw==
   dependencies:
     "@babel/runtime" "^7.12.13"
     "@styled-icons/styled-icon" "^10.6.0"
