@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@styled-icons/bootstrap": "^10.25.0",
-    "@styled-icons/simple-icons": "^10.28.0",
+    "@styled-icons/simple-icons": "^10.43.0",
     "lodash": "^4.17.20",
     "next": "latest",
     "prop-types": "^15.7.2",
