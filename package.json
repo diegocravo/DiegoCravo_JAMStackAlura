@@ -8,7 +8,7 @@
     "start": "node_modules/next/dist/bin/next start -p $PORT"
   },
   "dependencies": {
-    "@styled-icons/bootstrap": "^10.25.0",
+    "@styled-icons/bootstrap": "^10.47.0",
     "@styled-icons/simple-icons": "^10.28.0",
     "lodash": "^4.17.20",
     "next": "latest",
